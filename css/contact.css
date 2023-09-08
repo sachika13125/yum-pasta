@@ -1,0 +1,44 @@
+.contact {
+    padding: 2rem;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-title h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact info */
+.contact-info {
+    display: block;
+    margin: 1rem;
+}
+
+.contact-container {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+.contact-item img {
+    width: 6vw;
+    margin-right: 1rem;
+}
+
+.contact-item a {
+    list-style: none;
+    color: #000;
+}
+
+/* Contact form */
+.contact-form {
+
+}
