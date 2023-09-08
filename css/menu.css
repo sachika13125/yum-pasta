@@ -1,0 +1,52 @@
+/* Menu */
+.menu-container {
+    padding: 10vw;
+}
+
+.menu-container h1 {
+    text-align: center;
+}
+
+.menu-lists {
+    display: block;
+}
+
+.menu-item h2 {
+    text-align: center;
+    padding: 25%;
+    color: #fff;
+}
+
+.menu-item {
+    margin: 1rem;
+    min-height: 20vh;
+    background-color: #333;
+    background-size: cover;
+    background-blend-mode: multiply;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+    transition: 0.5s;
+}
+
+.menu-item:nth-child(1) {
+    background-image: url(../imgs/pasta1.jpg);
+}
+
+.menu-item:nth-child(2) {
+    background-image: url(../imgs/pasta2.jpg);
+}
+
+.menu-item:nth-child(3) {
+    background-image: url(../imgs/pasta3.jpg);
+}
+
+.menu-item:nth-child(4) {
+    background-image: url(../imgs/pasta1.jpg);
+}
+
+.menu-item:nth-child(5) {
+    background-image: url(../imgs/pasta2.jpg);
+}

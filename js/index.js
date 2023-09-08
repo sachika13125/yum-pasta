@@ -10,3 +10,8 @@ btn.onclick = () => {
 mask.onclick = () => {
     nav.classList.toggle('open'); 
 }
+
+// Menu
+function jumpToPage(pageURL) {
+    window.location.href = pageURL;
+}
