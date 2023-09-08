@@ -13,7 +13,7 @@
 /* Contact info */
 .contact-info {
     display: block;
-    margin: 1rem;
+    margin: 2rem 1rem;
 }
 
 .contact-container {
@@ -39,6 +39,42 @@
 }
 
 /* Contact form */
-.contact-form {
-
+.contact-container form {
+    display: block;
+    margin-top: 2rem;
 }
+
+form h2, input, textarea, button {
+    margin: .5rem;
+}
+
+form h2 {
+    text-align: center;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    width: 70vw;
+}
+
+input:focus, 
+textarea:focus {
+    background-color: aliceblue;
+    
+}
+
+button {
+    padding: 0.4rem;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #45a049;
+  }
