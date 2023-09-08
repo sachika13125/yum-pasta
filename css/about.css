@@ -3,11 +3,11 @@
     padding: 2rem;
 }
 
+/* Concept section */
 .concept-container {
     display: grid;
     grid-template-columns: repeat(3,27vw);
     grid-template-rows: repeat(2, 20vh);
-    gap: 2vw;
 }
 
 .concept-item:nth-child(1) {
@@ -21,9 +21,22 @@
     grid-row: 2 / 3;
 }
 
-
-img {
+.concept-item img {
     width: 56vw;
     height: 20vh;
     object-fit: cover;
+}
+
+/* History section */
+.history-container {
+    display: grid;
+    grid-template-columns: repeat(3,27vw);
+    grid-template-rows: repeat(2, 20vh);
+}
+
+/* Chef section */
+.chef-container {
+    display: grid;
+    grid-template-columns: repeat(3,27vw);
+    grid-template-rows: repeat(2, 20vh);
 }
