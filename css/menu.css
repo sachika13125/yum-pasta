@@ -11,12 +11,6 @@
     display: block;
 }
 
-.menu-item h2 {
-    text-align: center;
-    padding: 25%;
-    color: #fff;
-}
-
 .menu-item {
     margin: 1rem;
     min-height: 20vh;
@@ -24,6 +18,17 @@
     background-size: cover;
     background-blend-mode: multiply;
     cursor: pointer;
+    position: relative;
+}
+
+.menu-item h2 {
+    text-align: center;
+    padding: 25%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 .menu-item:hover {
@@ -49,4 +54,20 @@
 
 .menu-item:nth-child(5) {
     background-image: url(../imgs/pasta2.jpg);
+}
+
+
+/* For Tablet */
+@media screen and (min-width: 768px) {
+    .menu-lists {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 20vw);
+        gap: 2rem;
+    }
+
+    .menu-item:nth-child(1) {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
 }
