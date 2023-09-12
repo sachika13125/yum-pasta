@@ -1,5 +1,11 @@
 .special {
-    padding: 10vw;
+    padding: 8vw;
+}
+
+.special h1 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1rem;
 }
 
 .item-container {
@@ -8,14 +14,14 @@
 
 .item-card {
     padding: 1rem;
-    background-color: antiquewhite;
 }
 
 .item-card img {
     width: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
 }
 
-.item-card h2, p {
+.item-card h2, .item-card p {
     text-align: right;
 }
