@@ -18,13 +18,13 @@
 
 .hero-content h3 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .hero-content p {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
@@ -40,4 +40,31 @@
 .hero-content input:hover {
     background-color: #333;
     color: #fff;
+}
+
+
+/* For Tablet */
+
+@media screen and (min-width: 768px) {
+    #hero {
+        background-position: left center;
+    }
+
+    .hero-content {
+        top: 15%;
+        left: 10%;
+        max-width: 60%;
+    }
+
+    .hero-content h3 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.5rem;
+    }
+
+    .hero-content input {
+        font-size: 1rem;
+    }
 }
