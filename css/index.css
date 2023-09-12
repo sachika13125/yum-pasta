@@ -1,49 +1,43 @@
-/* Menu */
-.menu-container {
-    padding: 10vw;
-}
-
-.menu-container h1 {
-    text-align: center;
-}
-
-.menu-lists {
-    display: block;
-}
-
-.menu-item h2 {
-    text-align: center;
-    padding: 25%;
-    color: #fff;
-}
-
-.menu-item {
-    margin: 1rem;
-    min-height: 20vh;
+/* Hero */
+#hero {
+    position: relative;
+    height: 100vh;
+    background: url(../imgs/hero.jpg);
     background-color: #333;
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode: soft-light;
+
 }
 
-.menu-item:nth-child(1) {
-    background-image: url(../imgs/pasta1.jpg);
+.hero-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    max-width: 60%;
 }
 
-.menu-item:nth-child(2) {
-    background-image: url(../imgs/pasta2.jpg);
+.hero-content h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.menu-item:nth-child(3) {
-    background-image: url(../imgs/pasta3.jpg);
+.hero-content p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-.menu-item:nth-child(4) {
-    background-image: url(../imgs/pasta1.jpg);
+.hero-content input {
+    padding: .5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 800;
+    background-color: #fff;
+    color: #333;
 }
 
-.menu-item:nth-child(5) {
-    background-image: url(../imgs/pasta2.jpg);
+.hero-content input:hover {
+    background-color: #333;
+    color: #fff;
 }
-
-
-
