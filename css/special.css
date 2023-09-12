@@ -1,0 +1,21 @@
+.special {
+    padding: 10vw;
+}
+
+.item-container {
+    display: block;
+}
+
+.item-card {
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+.item-card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.item-card h2, p {
+    text-align: right;
+}
