@@ -68,3 +68,17 @@
         font-size: 1rem;
     }
 }
+
+/* For Desktop */
+@media only screen and (min-width: 992px) {
+    .hero-content input {
+        margin-left: 45vw;
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        max-width: 60%;
+    }
+}
