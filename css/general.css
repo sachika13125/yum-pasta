@@ -131,6 +131,17 @@ main h1 {
     text-align: center;
 }
 
+/* Normal nav */
+#normal-nav {
+    display: none;
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
 /* Footer */
 .footer-area {
     background-color: antiquewhite;
@@ -145,4 +156,76 @@ main h1 {
     margin: 0.5rem;
     font-weight: 600;
     font-size: 1.2rem;
+}
+
+/* For Tablet */
+@media only screen and (min-width: 768px) {
+    #normal-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5vw;
+        height: max-content;
+        line-height: 8vh;
+        background-color: antiquewhite;
+    }
+
+    #normal-nav a {
+        text-decoration: none;
+        color: #333;    
+    }
+
+    .name a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name img {
+        width: 4vw;
+    }
+
+    .name h1 {
+        font-size: 1.5rem;
+    }
+
+    .nav-container ul {
+        display: flex;
+    }
+
+    .nav-container li {
+        cursor: pointer;
+        height: 100%;
+        padding: 0 1rem;
+        transition: .4s;
+        font-weight: 800;
+    }
+
+    .nav-container li:hover {
+        background-color: #e4e4e4;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    main {
+        display: none;
+    }
+} 
+
+
+/* For Desktop */
+@media only screen and (min-width: 992px) {
+    /* Footer */
+    .footer-lists {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-item li,
+    .footer-item p {
+        font-size: 1.2rem;
+    }
 }

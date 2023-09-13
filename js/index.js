@@ -1,4 +1,4 @@
-let nav = document.querySelector('#nav-area');
+let nav = document.querySelector('#mobile-nav');
 let btn = document.querySelector('.toggle');
 let mask = document.querySelector('#mask');
 
@@ -9,6 +9,10 @@ btn.onclick = () => {
 
 mask.onclick = () => {
     nav.classList.toggle('open'); 
+}
+
+if (window.innerWidth >= 768) {
+    btn.style.display = 'none';
 }
 
 // Menu

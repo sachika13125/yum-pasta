@@ -81,16 +81,4 @@
         left: 10%;
         max-width: 60%;
     }
-
-    /* Footer */
-    .footer-lists {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .footer-item li,
-    .footer-item p {
-        font-size: 1.2rem;
-    }
 }
