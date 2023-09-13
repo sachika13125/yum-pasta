@@ -11,8 +11,8 @@
 /* Concept section */
 .concept-container {
     display: grid;
-    grid-template-columns: repeat(3,27vw);
-    grid-template-rows: repeat(2, 20vh);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, auto);
     gap: .5rem;
 }
 
@@ -46,7 +46,7 @@
     grid-template-columns: repeat(3,27vw);
     grid-template-rows: repeat(3, 20vh);
     gap: .5rem;
-
+    margin: 2rem 0;
 }
 
 .history-container .concept-item:nth-child(3) {
@@ -63,8 +63,9 @@
 }
 
 .chef-container img {
-    width: 45vw;
+    width: 40vw;
     height: 25vh;
+    object-position: left top;
 }
 
 
@@ -115,7 +116,6 @@
     .chef-container img {
         width: 45vw;
         height: 40vh;
-        object-position: left top;
     }
 
 }
@@ -175,8 +175,5 @@
     .chef-container img {
         width: 25vw;
         height: 40vh;
-        object-position: left top;
-    }
-    
-    
+    }    
 }
