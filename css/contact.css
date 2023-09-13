@@ -77,4 +77,17 @@ button {
 
 button:hover {
     background-color: #45a049;
-  }
+}
+
+/* For Tablet */
+
+@media screen and (min-width: 768px) {
+    .contact-item img {
+        width: 4vw;
+        margin-right: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
