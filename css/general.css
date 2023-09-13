@@ -4,10 +4,22 @@
     box-sizing: border-box;
 }
 
+html {
+    --body-color: #fff9df;
+    --primary-color: #fde489;
+    --secondary-color: #EE964B;
+    --font-color: #030b12;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    color: var(--font-color);
 }
 
 
@@ -16,7 +28,7 @@ nav {
     display: block;
     width: 40vw;
     position: fixed;
-    background-color: #fff;
+    background-color: var(--primary-color);
     top: 0;
     left: -300px;
     bottom: 0;
@@ -36,20 +48,20 @@ nav .inner {
 
 .inner li {
     margin: 0;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--font-color);
 }
 
 .inner a {
     display: block;
     text-decoration: none;
-    color: #333;
+    color: var(--font-color);
     font-size: 1rem;
     padding: 1rem;
     transition-duration: 0.2s;
 }
 
 .inner a:hover {
-    background-color: #e4e4e4;
+    background-color: var(--body-color);
 }
 
 /* Toggle */
@@ -70,7 +82,7 @@ nav .inner {
     left: 0;
     width: 30px;
     height: 2px;
-    background-color: #333;
+    background-color: var(--font-color);
     transition: all 0.5s;
     border-radius: 4px;
 }
@@ -88,7 +100,7 @@ nav .inner {
 }
 
 .open .toggle span {
-    background-color: #fff;
+    background-color: var(--primary-color);
 }
 
 .open .toggle span:nth-child(1) {
@@ -122,7 +134,7 @@ nav .inner {
 }
 
 main {
-    background-color: antiquewhite;
+    background-color: var(--primary-color);
     height: 8vh;
     padding: 1rem;
 }
@@ -135,7 +147,7 @@ main h1 {
 #normal-nav {
     display: none;
     width: 100vw;
-    background-color: #fff;
+    background-color: var(--primary-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -144,7 +156,7 @@ main h1 {
 
 /* Footer */
 .footer-area {
-    background-color: antiquewhite;
+    background-color: var(--primary-color);
     text-align: center;
 }
 
@@ -167,12 +179,12 @@ main h1 {
         padding: 0 5vw;
         height: max-content;
         line-height: 8vh;
-        background-color: antiquewhite;
+        background-color: var(--primary-color);
     }
 
     #normal-nav a {
         text-decoration: none;
-        color: #333;    
+        color: var(--font-color);    
     }
 
     .name a {
@@ -202,7 +214,7 @@ main h1 {
     }
 
     .nav-container li:hover {
-        background-color: #e4e4e4;
+        background-color: var(--body-color);
     }
 
     .toggle {
