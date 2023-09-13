@@ -37,3 +37,17 @@
     }
 
 }
+
+/* For Desktop */
+@media only screen and (min-width: 992px) {
+    .special {
+        padding: 5vh 15vw;
+    }
+
+    .item-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        gap: 2rem;
+    }
+}
