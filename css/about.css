@@ -52,15 +52,19 @@
 
 /* For Tablet */
 @media screen and (min-width: 768px) {
-
+    .concept-container {
+        padding: 10vh 10vw;
+    }
+    
+    .staff {
+        padding: 0 10vw;
+    }
 
 }
 
 /* For Desktop */
 @media only screen and (min-width: 992px) {
-    .concept-container, .staff {
-        padding: 0 10vw;
-    }
+    
     
     p {
         font-size: 1.2rem;
