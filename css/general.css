@@ -5,10 +5,12 @@
 }
 
 html {
-    --body-color: #fff9df;
-    --primary-color: #fde489;
-    --secondary-color: #EE964B;
-    --font-color: #030b12;
+    --body-color: #fffffe;
+    --primary-color: #eaddcf;
+    --secondary-color: #ff8906;
+    --font-color: #0c0a0a;
+
+    /* fdfbed feda78 f77f00 0c0a0a */
 }
 
 body {

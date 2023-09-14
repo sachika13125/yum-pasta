@@ -3,7 +3,7 @@
 /* Concept section */
 .concept-container {
     padding: 1rem 0;
-    background-color: aliceblue;
+    background-color: var(--body-color);
     text-align: center;
 }
 
@@ -23,7 +23,7 @@
 /* Staff section */
 .staff {
     padding: 1rem 0;
-    background-color: aliceblue;
+    background-color: var(--body-color);
 }
 .staff h2 {
     text-align: center;
@@ -59,13 +59,10 @@
     .staff {
         padding: 0 10vw;
     }
-
 }
 
 /* For Desktop */
 @media only screen and (min-width: 992px) {
-    
-    
     p {
         font-size: 1.2rem;
     }
