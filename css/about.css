@@ -67,6 +67,10 @@
         font-size: 1.2rem;
     }
 
+    .concept-container {
+        padding: 15vh 15vw;
+    }
+
     .concept-item h1 {
         font-size: 2.5rem;
     }
