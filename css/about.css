@@ -23,8 +23,8 @@
 /* Staff section */
 .staff {
     padding: 1rem 0;
-    background-color: var(--body-color);
 }
+
 .staff h2 {
     text-align: center;
     font-size: 1.2rem;
