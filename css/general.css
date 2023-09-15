@@ -8,7 +8,7 @@ html {
     --body-color: #f2f7f5;
     --primary-color: #00473e;
     --secondary-color: #faae2b;
-    --font-color: #00332c;
+    --font-color: #00100e;
 
     /* fdfbed feda78 f77f00 0c0a0a */
 }
@@ -193,9 +193,17 @@ main h1 {
         background-color: var(--primary-color);
     }
 
+    #normal-nav h1 {
+        color: var(--body-color);    
+    }
+
     #normal-nav a {
         text-decoration: none;
-        color: var(--font-color);    
+        color: var(--body-color);    
+    }
+
+    #normal-nav a:hover {
+        color: var(--font-color);
     }
 
     .name a {
@@ -226,6 +234,7 @@ main h1 {
 
     .nav-container li:hover {
         background-color: var(--body-color);
+        color: var(--font-color);
     }
 
     .toggle {

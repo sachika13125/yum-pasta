@@ -1,7 +1,7 @@
 /* Contact */
 
 .contact-title {
-    padding: 1rem 0;
+    padding: 5vh 10vw;
     text-align: center;
     background-image: url(../imgs/about/concept1.jpg);
     background-color: #333;
@@ -44,18 +44,23 @@
     color: var(--font-color);
 }
 
+.contact-item p {
+    color: var(--font-color);
+}
+
 /* Contact form */
 .contact-container form {
     display: block;
     margin-top: 2rem;
 }
 
-form h2, input, textarea, button {
+form h2, input, textarea {
     margin: .5rem;
 }
 
 form h2 {
     text-align: center;
+    color: var(--font-color);
 }
 
 input, textarea {
@@ -73,7 +78,7 @@ textarea:focus {
 
 button {
     padding: 0.4rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--font-color);
     border: none;
     border-radius: 4px;
@@ -81,9 +86,7 @@ button {
     float: right;
 }
 
-button:hover {
-    background-color: var(--secondary-color);
-}
+
 
 /* For Tablet */
 
@@ -91,6 +94,7 @@ button:hover {
     .contact {
         padding: 8vh 0;
     }
+
     .contact-title {
         padding: 10vh 10vw;
     }

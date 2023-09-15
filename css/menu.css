@@ -1,6 +1,6 @@
 /* Menu */
 .menu-container {
-    padding: 10vw;
+    padding: 5vh 10vw;
 }
 
 .menu-container h1 {
@@ -59,10 +59,14 @@
 
 /* For Tablet */
 @media screen and (min-width: 768px) {
+    .menu-container {
+        padding: 10vh 10vw;
+    }
+
     .menu-lists {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 20vw);
+        grid-template-rows: repeat(3, 1fr);
         gap: 2rem;
     }
 
