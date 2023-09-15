@@ -5,10 +5,10 @@
 }
 
 html {
-    --body-color: #fffffe;
-    --primary-color: #eaddcf;
-    --secondary-color: #ff8906;
-    --font-color: #0c0a0a;
+    --body-color: #f2f7f5;
+    --primary-color: #00473e;
+    --secondary-color: #faae2b;
+    --font-color: #00332c;
 
     /* fdfbed feda78 f77f00 0c0a0a */
 }
@@ -21,7 +21,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: var(--font-color);
+    color: var(--body-color);
 }
 
 
@@ -30,7 +30,7 @@ nav {
     display: block;
     width: 40vw;
     position: fixed;
-    background-color: var(--primary-color);
+    background-color: var(--body-color);
     top: 0;
     left: -300px;
     bottom: 0;
@@ -63,7 +63,7 @@ nav .inner {
 }
 
 .inner a:hover {
-    background-color: var(--body-color);
+    background-color: #faae2b93;
 }
 
 /* Toggle */
@@ -84,7 +84,7 @@ nav .inner {
     left: 0;
     width: 30px;
     height: 2px;
-    background-color: var(--font-color);
+    background-color: var(--secondary-color);
     transition: all 0.5s;
     border-radius: 4px;
 }
@@ -102,7 +102,7 @@ nav .inner {
 }
 
 .open .toggle span {
-    background-color: var(--primary-color);
+    background-color: var(--body-color);
 }
 
 .open .toggle span:nth-child(1) {
@@ -137,12 +137,13 @@ nav .inner {
 
 main {
     background-color: var(--primary-color);
-    height: 8vh;
+    height: 7vh;
     padding: 1rem;
 }
 
 main h1 {
     text-align: center;
+    color: var(--body-color);
 }
 
 /* Normal nav */
@@ -170,6 +171,14 @@ main h1 {
     margin: 0.5rem;
     font-weight: 600;
     font-size: 1.2rem;
+}
+
+.footer-item p {
+    color: var(--body-color);
+}
+
+.sns img {
+    width: 40px;
 }
 
 /* For Tablet */
