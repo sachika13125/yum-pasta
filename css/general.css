@@ -232,6 +232,11 @@ main h1 {
         font-weight: 800;
     }
 
+    .nav-container li a{
+        display: inline-block;
+        height: 100%;
+    }
+
     .nav-container li:hover {
         background-color: var(--body-color);
         color: var(--font-color);
