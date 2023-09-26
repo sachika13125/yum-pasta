@@ -19,3 +19,9 @@ if (window.innerWidth >= 768) {
 function jumpToPage(pageURL) {
     window.location.href = pageURL;
 }
+
+// About
+document.addEventListener('DOMContentLoaded', function() {
+    const concept = document.querySelector('.concept-container');
+    concept.style.animationPlayState = 'running'; 
+});

@@ -1,10 +1,20 @@
 /* About Us */
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 /* Concept section */
 .concept-container {
     padding: 1rem 0;
-    background-color: var(--body-color);
     text-align: center;
+    animation: slideInFromBottom 1.5s ease-in-out 0.3s 1 normal both paused;
 }
 
 .concept-item h1 {
