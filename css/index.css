@@ -1,4 +1,22 @@
 /* Hero */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
 #hero {
     position: relative;
     height: 100vh;
@@ -6,7 +24,6 @@
     background-color: #333;
     background-size: cover;
     background-blend-mode: soft-light;
-
 }
 
 .hero-content {
@@ -14,6 +31,7 @@
     top: 20%;
     left: 10%;
     max-width: 60%;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .hero-content h3 {
@@ -65,6 +83,10 @@
     height: 300px;
     object-position: center center;
     object-fit: cover;
+}
+
+.recommend-item img:hover {
+    animation: zoomIn 0.5s ease-in-out forwards;
 }
 
 /* For Tablet */
