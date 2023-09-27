@@ -146,6 +146,12 @@ main h1 {
     color: var(--body-color);
 }
 
+main p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--body-color);
+}
+
 /* Normal nav */
 #normal-nav {
     display: none;
@@ -155,6 +161,13 @@ main h1 {
     top: 0;
     left: 0;
     z-index: 3;
+}
+
+#normal-nav p {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--body-color);
 }
 
 /* Footer */
